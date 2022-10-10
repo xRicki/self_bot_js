@@ -1,0 +1,15 @@
+{
+	"self": {
+        "user": 2,
+		"prefix": ["==", ">=", ">="],
+        "channel_id": "1028721133136125993",
+        "guild_id": "723428972142002177",
+        "bot_master": "425738178457108530"
+	},
+	
+	"mudae": {
+        "mode": 0,
+		"roll_type": "wa",
+        "setinterval": 20
+	}
+}
