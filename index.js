@@ -66,7 +66,7 @@ client.on(`messageCreate`, async msg => {
                         await msg.channel.sendSlash('432610292342587392', mudae.roll_type).catch(() =>{});
                         counter += 1;
                     }
-                    ms = generateRandomInt(1100, 1200);
+                    ms = generateRandomInt(2000, 2500);
                 } else {
                     // wa / wa /....
                     if (counter === 0) {
@@ -76,7 +76,7 @@ client.on(`messageCreate`, async msg => {
                         await msg.channel.sendSlash('432610292342587392', mudae.roll_type).catch(() => {});
                         counter -= 1;
                     }
-                    ms = generateRandomInt(1150, 1200);
+                    ms = generateRandomInt(2000, 2500);
                 }
                 await sleep(ms);
                 
